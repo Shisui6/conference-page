@@ -126,13 +126,58 @@ header {
 
 /* Speakers Section */
 .speakers {
-  padding: 30px 20px 50px;
+  padding: 30px 20px;
 }
 
-.speakers hr {
+.speakers-hr {
   width: 50px;
   border: 0.1px solid #ec5212;
   height: 0;
   background-color: #ec5212;
   margin-bottom: 40px;
+}
+
+.speakers img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.speakers-cont {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+}
+
+.speakers-info {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.speakers-text h3 {
+  margin-top: 0;
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.speakers-text h4 {
+  color: #ec5212;
+  font-style: italic;
+  margin-top: 0;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.speakers-text hr {
+  width: 20px;
+  margin-left: 0;
+  border: 1px solid #e2e2e2;
+  background-color: #e2e2e2;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.speakers-text p {
+  margin-top: 0;
+  font-size: 12px;
 }
