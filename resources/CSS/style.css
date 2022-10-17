@@ -24,6 +24,9 @@ header {
   background-color: #fff;
   height: 60px;
   padding: 20px 25px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .fa-bars {
@@ -33,6 +36,7 @@ header {
 /* Intro Section */
 
 .intro {
+  margin-top: 60px;
   padding: 20px;
   background-color: #eeeef0;
   height: 100vh;
@@ -93,7 +97,7 @@ header {
 }
 
 .program-icon {
-  margin-right: 20px;
+  margin-right: 40px;
   width: 40%;
 }
 
@@ -128,6 +132,7 @@ header {
   display: block;
   width: 70%;
   font-size: 17px;
+  margin-top: 50px;
 }
 
 /* Speakers Section */
@@ -198,9 +203,8 @@ header {
 }
 
 .partners img {
-  width: 120px;
+  width: 27%;
   margin-bottom: 30px;
-  margin-right: 50px;
 }
 
 .partners img:last-child {
@@ -217,4 +221,35 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.center-div-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  margin-right: 30px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.footer h2 {
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 50%;
+}
+
+.footer p {
+  font-size: 12px;
+  width: 50%;
 }
