@@ -1,14 +1,17 @@
 /* All */
+
 * {
   box-sizing: border-box;
 }
 
 /* HTML */
+
 html {
   scroll-behavior: smooth;
 }
 
 /* body */
+
 body {
   margin: 0;
   padding: 0;
@@ -16,6 +19,7 @@ body {
 }
 
 /* Navbar */
+
 header {
   background-color: #fff;
   height: 60px;
@@ -27,6 +31,7 @@ header {
 }
 
 /* Intro Section */
+
 .intro {
   padding: 20px;
   background-color: #eeeef0;
@@ -63,6 +68,7 @@ header {
 }
 
 /* Program Section */
+
 .program {
   padding: 30px 20px 50px;
   background-color: #272a31;
@@ -125,6 +131,7 @@ header {
 }
 
 /* Speakers Section */
+
 .speakers {
   padding: 30px 20px;
 }
@@ -180,4 +187,34 @@ header {
 .speakers-text p {
   margin-top: 0;
   font-size: 12px;
+}
+
+/* Partners section */
+
+.partners {
+  padding: 30px 20px 50px;
+  background-color: #414246;
+  color: #fff;
+}
+
+.partners img {
+  width: 120px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.partners img:last-child {
+  margin-right: 0;
+}
+
+.partner-cont {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.center-div {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
