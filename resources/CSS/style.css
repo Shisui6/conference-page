@@ -17,7 +17,7 @@ body {
 
 /* Navbar */
 header {
-  background-color: bisque;
+  background-color: #fff;
   height: 60px;
   padding: 20px 25px;
 }
@@ -60,4 +60,79 @@ header {
   padding: 15px;
   color: #272a31;
   line-height: 28px;
+}
+
+/* Program Section */
+.program {
+  padding: 30px 20px 50px;
+  background-color: #272a31;
+  color: #fff;
+}
+
+.program hr {
+  width: 50px;
+  border: 0.1px solid #ec5212;
+  height: 0;
+  background-color: #ec5212;
+  margin-bottom: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.program-icon {
+  margin-right: 20px;
+  width: 40%;
+}
+
+.program-icon h3 {
+  color: #ec5212;
+}
+
+.program i {
+  margin-right: 20px;
+}
+
+.program-item {
+  padding: 0 20px;
+  background-color: #3d4047;
+  margin-bottom: 20px;
+}
+
+.program-text {
+  width: 60%;
+}
+
+.program-text p {
+  line-height: 25px;
+}
+
+.program button {
+  background-color: #ec5212;
+  color: #fff;
+  padding: 30px 40px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  font-size: 17px;
+}
+
+/* Speakers Section */
+.speakers {
+  padding: 30px 20px 50px;
+}
+
+.speakers hr {
+  width: 50px;
+  border: 0.1px solid #ec5212;
+  height: 0;
+  background-color: #ec5212;
+  margin-bottom: 40px;
 }
