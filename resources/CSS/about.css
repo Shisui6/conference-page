@@ -40,6 +40,7 @@ header {
   padding: 20px;
   background-color: #eeeef0;
   height: 100vh;
+  text-align: center;
 }
 
 .intro h1 {
@@ -65,80 +66,79 @@ header {
 }
 
 .intro-desc {
-  border: 2px solid #fff;
+  border: 2px solid #e6e6e6;
   padding: 15px;
   color: #272a31;
   line-height: 28px;
+  background-color: #fff;
 }
 
-/* Program Section */
-
-.program {
-  padding: 30px 20px 50px;
-  background-color: #272a31;
-  color: #fff;
+.contact-us {
+  width: 75%;
+  margin: 0 auto;
 }
 
-.program hr {
-  width: 50px;
-  border: 0.1px solid #ec5212;
-  height: 0;
-  background-color: #ec5212;
-  margin-bottom: 40px;
+.contact-us p {
+  margin-bottom: 10px;
 }
 
-.center {
+.email {
+  text-decoration: underline;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+/* About Section */
+
+.about {
   text-align: center;
+  padding: 30px;
+  border-bottom: 2px solid #f3f3f3;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
+.about p {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 13px;
 }
 
-.program-icon {
-  margin-right: 40px;
-  width: 40%;
-}
-
-.program-icon h3 {
-  color: #ec5212;
-}
-
-.program i {
-  margin-right: 20px;
-}
-
-.program-item {
-  padding: 0 20px;
-  background-color: #3d4047;
+.about div {
+  height: 150px;
+  border: 2px solid #f3f3f3;
   margin-bottom: 20px;
 }
 
-.program-text {
-  width: 60%;
+.about img {
+  width: 100%;
 }
 
-.program-text p {
-  line-height: 25px;
+/* History Section */
+
+.history {
+  text-align: center;
+  padding: 40px;
 }
 
-.program button {
-  background-color: #ec5212;
-  color: #fff;
-  padding: 30px 40px;
-  border: none;
-  margin: 0 auto;
-  display: block;
-  width: 70%;
-  font-size: 17px;
-  margin-top: 50px;
+.history p {
+  margin-bottom: 40px;
+  font-size: 14px;
 }
 
-/* Speakers Section */
+.event-cont {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
 
-.speakers {
-  padding: 30px 20px;
+.history img {
+  width: 100%;
+}
+
+/* Partners section */
+
+.center {
+  text-align: center;
 }
 
 .section-hr {
@@ -146,55 +146,8 @@ header {
   border: 0.1px solid #ec5212;
   height: 0;
   background-color: #ec5212;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
-
-.speakers img {
-  width: 120px;
-  height: 120px;
-  margin-right: 20px;
-}
-
-.speakers-cont {
-  display: grid;
-  grid-template-rows: 200px 200px 200px;
-  gap: 20px;
-}
-
-.speakers-info {
-  display: flex;
-  margin-bottom: 40px;
-}
-
-.speakers-text h3 {
-  margin-top: 0;
-  font-size: 21px;
-  margin-bottom: 8px;
-}
-
-.speakers-text h4 {
-  color: #ec5212;
-  font-style: italic;
-  margin-top: 0;
-  font-size: 13px;
-  margin-bottom: 10px;
-}
-
-.speakers-text hr {
-  width: 20px;
-  margin-left: 0;
-  border: 1px solid #e2e2e2;
-  background-color: #e2e2e2;
-  margin-top: 0;
-  margin-bottom: 12px;
-}
-
-.speakers-text p {
-  margin-top: 0;
-  font-size: 12px;
-}
-
-/* Partners section */
 
 .partners {
   padding: 30px 20px 50px;
