@@ -119,6 +119,7 @@ header nav {
 .intro {
   margin-top: 60px;
   padding: 20px;
+  background-image: url('../Images/music.svg');
   background-color: #eeeef0;
   height: 100vh;
   text-align: center;
@@ -320,11 +321,9 @@ footer {
   padding: 30px 30px;
 }
 
-.footer h2 {
+.footer img {
   margin-right: 30px;
-  font-size: 18px;
-  font-weight: 900;
-  width: 50%;
+  width: 40%;
 }
 
 .footer p {
@@ -497,12 +496,6 @@ footer {
     padding: 30px 200px;
     background-color: #2e2e2e;
     color: #e2e5e4;
-  }
-
-  .footer h2 {
-    margin-right: 30px;
-    font-size: 25px;
-    width: fit-content;
   }
 
   .footer p {

@@ -119,13 +119,14 @@ header nav {
 .intro {
   margin-top: 60px;
   padding: 20px;
-  background-color: #eeeef0;
   height: 100vh;
+  background-image: url('../Images/leaves.svg');
+  background-color: #eeeef0;
 }
 
 .intro h1 {
   margin-top: 0;
-  color: #ec5212;
+  color: rgb(236, 82, 18);
   font-size: 38px;
   text-transform: uppercase;
   font-weight: 900;
@@ -233,15 +234,16 @@ header nav {
 }
 
 .speakers img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
+  border-radius: 50%;
 }
 
 .speakers-cont {
   display: grid;
   grid-template-rows: 200px 200px 200px;
-  gap: 20px;
+  gap: 40px;
 }
 
 .speakers-info {
@@ -315,16 +317,14 @@ header nav {
 
 footer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 30px 30px;
 }
 
-.footer h2 {
+.footer img {
   margin-right: 30px;
-  font-size: 18px;
-  font-weight: 900;
-  width: 50%;
+  width: 40%;
 }
 
 .footer p {
@@ -469,6 +469,8 @@ footer {
 
   .program-text p {
     margin-top: 0;
+    font-size: 13px;
+    text-align: center;
   }
 
   .program button {
