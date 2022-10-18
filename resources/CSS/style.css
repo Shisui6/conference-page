@@ -418,4 +418,10 @@ footer {
     margin-top: 80px;
     cursor: pointer;
   }
+
+  .speakers-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 150px;
+  }
 }
