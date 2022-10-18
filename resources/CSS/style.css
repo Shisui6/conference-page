@@ -222,18 +222,12 @@ nav {
   margin-bottom: 30px;
 }
 
-.partners img:last-child {
-  margin-right: 0;
-}
-
 .partner-cont {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .center-div {
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -423,5 +417,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 150px;
+  }
+
+  .partners {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .partner-cont {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 30px;
   }
 }
