@@ -24,7 +24,9 @@
     </div>
     <nav>
       <div class="mobile-menu">
-        <i class="fa-solid fa-bars fa-2xl"></i>
+        <button id="menu-button">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
       </div>
       <div class="desktop-menu">
         <a href="#">
@@ -41,173 +43,190 @@
       </div>
     </nav>
   </header>
-  <section class="intro">
-    <h3>"Hello! Sharing World"</h3>
-    <h1>Creative Commons Global Summit <br> 2015</h1>
-    <p class="intro-desc">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
-    <h2>2015.10.15(THU) ~ 16(FRI)</h2>
-    <p>@ National Museum of Korea, Art Center Nabi and more
-    </p>
-  </section>
-  <section class="program">
-    <h2 class="center">Main Program</h2>
-    <hr>
-    <div class="program-cont">
-      <div class="program-item">
-        <div class="program-icon">
-          <i class="fa-solid fa-person-chalkboard fa-2xl"></i>
-          <h3>Lecture</h3>
+  <div class="menu hide" id="menu-id">
+    <button id="close">
+      <i class="fa-solid fa-x"></i>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">News</a>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <section class="intro">
+      <h3>"Hello! Sharing World"</h3>
+      <h1>Creative Commons Global Summit <br> 2015</h1>
+      <p class="intro-desc">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+      <h2>2015.10.15(THU) ~ 16(FRI)</h2>
+      <p>@ National Museum of Korea, Art Center Nabi and more
+      </p>
+    </section>
+    <section class="program">
+      <h2 class="center">Main Program</h2>
+      <hr>
+      <div class="program-cont">
+        <div class="program-item">
+          <div class="program-icon">
+            <i class="fa-solid fa-person-chalkboard fa-2xl"></i>
+            <h3>Lecture</h3>
+          </div>
+          <div class="program-text">
+            <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+          </div>
         </div>
-        <div class="program-text">
-          <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+        <div class="program-item">
+          <div class="program-icon">
+            <i class="fa-solid fa-images fa-2xl"></i>
+            <h3>CC Exhibition</h3>
+          </div>
+          <div class="program-text">
+            <p>Appreciate various creations applying
+              CC license of artists, organized from
+              Art Center Nabi.</p>
+          </div>
         </div>
-      </div>
-      <div class="program-item">
-        <div class="program-icon">
-          <i class="fa-solid fa-images fa-2xl"></i>
-          <h3>CC Exhibition</h3>
+        <div class="program-item">
+          <div class="program-icon">
+            <i class="fa-regular fa-comments fa-2xl"></i>
+            <h3>Forum</h3>
+          </div>
+          <div class="program-text">
+            <p>Have the time to share your thoughts
+              and opinions with experts for each topic. </p>
+          </div>
         </div>
-        <div class="program-text">
-          <p>Appreciate various creations applying
-            CC license of artists, organized from
-            Art Center Nabi.</p>
+        <div class="program-item">
+          <div class="program-icon">
+            <i class="fa-solid fa-paintbrush fa-2xl"></i>
+            <h3>Workshop</h3>
+          </div>
+          <div class="program-text">
+            <p>Try creating your own work using
+              open source license rather than just
+              watching</p>
+          </div>
         </div>
-      </div>
-      <div class="program-item">
-        <div class="program-icon">
-          <i class="fa-regular fa-comments fa-2xl"></i>
-          <h3>Forum</h3>
-        </div>
-        <div class="program-text">
-          <p>Have the time to share your thoughts
-            and opinions with experts for each topic. </p>
-        </div>
-      </div>
-      <div class="program-item">
-        <div class="program-icon">
-          <i class="fa-solid fa-paintbrush fa-2xl"></i>
-          <h3>Workshop</h3>
-        </div>
-        <div class="program-text">
-          <p>Try creating your own work using
-            open source license rather than just
-            watching</p>
-        </div>
-      </div>
-      <div class="program-item">
-        <div class="program-icon">
-          <i class="fa-solid fa-dharmachakra fa-2xl"></i>
-          <h3>CC Ignite</h3>
-        </div>
-        <div class="program-text">
-          <p>Get opportunities to network with CC
-            affiliates around the world, also after
-            the summit.</p>
-        </div>
-      </div>
-    </div>
-    <a href="#" class="see">SEE THE WHOLE PROGRAM</a>
-    <button>Join CC Global Summit 2015</button>
-  </section>
-  <section class="speakers">
-    <h2 class="center">Featured Speakers</h2>
-    <hr class="section-hr">
-    <div class="speakers-cont">
-      <div class="speakers-info">
-        <div>
-          <img src="./resources/Images/davido.jpeg" alt="davido">
-        </div>
-        <div class="speakers-text">
-          <h3>Yochai Benkler</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
-          <hr>
-          <p>Benkler studies commons-based peer production, and published
-            his seminal book The Wealth of Networks in 2006.</p>
+        <div class="program-item">
+          <div class="program-icon">
+            <i class="fa-solid fa-dharmachakra fa-2xl"></i>
+            <h3>CC Ignite</h3>
+          </div>
+          <div class="program-text">
+            <p>Get opportunities to network with CC
+              affiliates around the world, also after
+              the summit.</p>
+          </div>
         </div>
       </div>
-      <div class="speakers-info">
-        <div>
-          <img src="./resources/Images/wizkid.jpeg" alt="davido">
+      <a href="#" class="see">SEE THE WHOLE PROGRAM</a>
+      <button>Join CC Global Summit 2015</button>
+    </section>
+    <section class="speakers">
+      <h2 class="center">Featured Speakers</h2>
+      <hr class="section-hr">
+      <div class="speakers-cont">
+        <div class="speakers-info">
+          <div>
+            <img src="./resources/Images/davido.jpeg" alt="davido">
+          </div>
+          <div class="speakers-text">
+            <h3>Yochai Benkler</h3>
+            <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
+            <hr>
+            <p>Benkler studies commons-based peer production, and published
+              his seminal book The Wealth of Networks in 2006.</p>
+          </div>
         </div>
-        <div class="speakers-text">
-          <h3>SohYeong Noh</h3>
-          <h4>Director of Art Centre Nabi and a board member of CC Korea
-          </h4>
-          <hr>
-          <p>As the main venue for new media art production in Korea, Nabi
-            promotes cross-disciplinary collaboration and understanding
-            among science technology, humanities, and the arts.
-            </p>
+        <div class="speakers-info">
+          <div>
+            <img src="./resources/Images/wizkid.jpeg" alt="davido">
+          </div>
+          <div class="speakers-text">
+            <h3>SohYeong Noh</h3>
+            <h4>Director of Art Centre Nabi and a board member of CC Korea
+            </h4>
+            <hr>
+            <p>As the main venue for new media art production in Korea, Nabi
+              promotes cross-disciplinary collaboration and understanding
+              among science technology, humanities, and the arts.
+              </p>
+          </div>
+        </div>
+        <div class="speakers-info">
+          <div>
+            <img src="./resources/Images/arya.jpeg" alt="davido">
+          </div>
+          <div class="speakers-text">
+            <h3>Lila Tretikov</h3>
+            <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
+            <hr>
+            <p>Benkler studies commons-based peer production, and published
+              his seminal book The Wealth of Networks in 2006.</p>
+          </div>
+        </div>
+        <div class="speakers-info">
+          <div>
+            <img src="./resources/Images/burna.jpg" alt="davido">
+          </div>
+          <div class="speakers-text">
+            <h3>Kilnam Chon</h3>
+            <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
+            <hr>
+            <p>Benkler studies commons-based peer production, and published
+              his seminal book The Wealth of Networks in 2006.</p>
+          </div>
+        </div>
+        <div class="speakers-info">
+          <div>
+            <img src="./resources/Images/tems.jpg" alt="davido">
+          </div>
+          <div class="speakers-text">
+            <h3>Julia Leda</h3>
+            <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
+            <hr>
+            <p>Benkler studies commons-based peer production, and published
+              his seminal book The Wealth of Networks in 2006.</p>
+          </div>
+        </div>
+        <div class="speakers-info">
+          <div>
+            <img src="./resources/Images/Joeboy.jpg" alt="davido">
+          </div>
+          <div class="speakers-text">
+            <h3>Ryan Merkley</h3>
+            <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
+            <hr>
+            <p>Benkler studies commons-based peer production, and published
+              his seminal book The Wealth of Networks in 2006.</p>
+          </div>
         </div>
       </div>
-      <div class="speakers-info">
-        <div>
-          <img src="./resources/Images/arya.jpeg" alt="davido">
+    </section>
+    <section class="partners">
+      <h2 class="center">Partners</h2>
+      <hr class="section-hr">
+      <div class="partner-cont">
+        <div class="center-div">
+          <img src="./resources/Images/mozilla.svg" alt="mozilla">
+          <img src="./resources/Images/google.png" alt="google">
+          <img src="./resources/Images/naver.png" alt="naver">
         </div>
-        <div class="speakers-text">
-          <h3>Lila Tretikov</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
-          <hr>
-          <p>Benkler studies commons-based peer production, and published
-            his seminal book The Wealth of Networks in 2006.</p>
-        </div>
-      </div>
-      <div class="speakers-info">
-        <div>
-          <img src="./resources/Images/burna.jpg" alt="davido">
-        </div>
-        <div class="speakers-text">
-          <h3>Kilnam Chon</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
-          <hr>
-          <p>Benkler studies commons-based peer production, and published
-            his seminal book The Wealth of Networks in 2006.</p>
+        <div class="center-div-2">
+          <img src="./resources/Images/daum.png" alt="daum" class="right">
+          <img src="./resources/Images/airbnb.png" alt="airbnb">
         </div>
       </div>
-      <div class="speakers-info">
-        <div>
-          <img src="./resources/Images/tems.jpg" alt="davido">
-        </div>
-        <div class="speakers-text">
-          <h3>Julia Leda</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
-          <hr>
-          <p>Benkler studies commons-based peer production, and published
-            his seminal book The Wealth of Networks in 2006.</p>
-        </div>
-      </div>
-      <div class="speakers-info">
-        <div>
-          <img src="./resources/Images/Joeboy.jpg" alt="davido">
-        </div>
-        <div class="speakers-text">
-          <h3>Ryan Merkley</h3>
-          <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
-          <hr>
-          <p>Benkler studies commons-based peer production, and published
-            his seminal book The Wealth of Networks in 2006.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="partners">
-    <h2 class="center">Partners</h2>
-    <hr class="section-hr">
-    <div class="partner-cont">
-      <div class="center-div">
-        <img src="./resources/Images/mozilla.svg" alt="mozilla">
-        <img src="./resources/Images/google.png" alt="google">
-        <img src="./resources/Images/naver.png" alt="naver">
-      </div>
-      <div class="center-div-2">
-        <img src="./resources/Images/daum.png" alt="daum" class="right">
-        <img src="./resources/Images/airbnb.png" alt="airbnb">
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <h2>@Creative <br> Commons Korea</h2>
-    <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
-  </footer>
+    </section>
+    <footer class="footer">
+      <h2>@Creative <br> Commons Korea</h2>
+      <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+    </footer>
+  </main>
+  <script src="./resources/JS/script.js"></script>
 </body>
 </html>

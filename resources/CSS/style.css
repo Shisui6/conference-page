@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  /* border: 0.1px solid black; */
 }
 
 /* HTML */
@@ -29,7 +28,7 @@ header {
   top: 0;
 }
 
-nav {
+header nav {
   background-color: #fff;
   padding: 20px 30px;
 }
@@ -44,6 +43,75 @@ nav {
 
 .fa-bars {
   color: #272a31;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.mobile-menu button {
+  background-color: #fff;
+  border: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(236, 82, 18, 0.6);
+  backdrop-filter: blur(6px);
+  padding-left: 28px;
+  opacity: 0;
+  animation: fadeIn 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+#close {
+  float: right;
+  margin-right: 38px;
+  margin-top: 62px;
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+.menu ul {
+  margin-top: -300px;
+  animation: animateTop 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+  list-style: none;
+  padding: 0;
+}
+
+@keyframes animateTop {
+  100% {
+    margin-top: 106px;
+  }
+}
+
+.menu li {
+  margin-bottom: 20px;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Intro Section */
@@ -294,7 +362,7 @@ footer {
     display: none;
   }
 
-  nav {
+  header nav {
     padding: 10px 150px;
   }
 
