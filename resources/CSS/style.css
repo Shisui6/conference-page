@@ -24,6 +24,9 @@ body {
 header {
   height: 60px;
   box-shadow: 0 8px 16px rgba(230, 232, 247, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 nav {
@@ -46,6 +49,7 @@ nav {
 /* Intro Section */
 
 .intro {
+  margin-top: 60px;
   padding: 20px;
   background-color: #eeeef0;
   height: 100vh;
@@ -100,12 +104,9 @@ nav {
   text-align: center;
 }
 
-.flex {
+.program-icon {
   display: flex;
   align-items: center;
-}
-
-.program-icon {
   margin-right: 40px;
   width: 40%;
 }
@@ -119,6 +120,7 @@ nav {
 }
 
 .program-item {
+  display: flex;
   padding: 0 20px;
   background-color: #3d4047;
   margin-bottom: 20px;
@@ -142,6 +144,10 @@ nav {
   width: 70%;
   font-size: 17px;
   margin-top: 50px;
+}
+
+.see {
+  display: none;
 }
 
 /* Speakers Section */
@@ -340,5 +346,76 @@ footer {
     border: 5px solid #ec5212;
     padding: 10px 20px;
     background-color: #fff;
+  }
+
+  .intro {
+    margin-top: 95px;
+    padding: 30px 200px;
+  }
+
+  .intro h1 {
+    font-size: 50px;
+    width: 65%;
+    margin-bottom: 0;
+  }
+
+  .intro h3 {
+    font-size: 35px;
+  }
+
+  .intro-desc {
+    width: 60%;
+    font-size: 13px;
+  }
+
+  .program {
+    padding-bottom: 80px;
+  }
+
+  .program-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 150px;
+    gap: 5px;
+  }
+
+  .program-item {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .program-icon {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .program-text {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .program i {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .program-text p {
+    margin-top: 0;
+  }
+
+  .program button {
+    display: none;
+  }
+
+  .see {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
   }
 }
