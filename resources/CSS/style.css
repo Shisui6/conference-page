@@ -430,4 +430,19 @@ footer {
     position: relative;
     left: 30px;
   }
+
+  footer {
+    padding: 30px 200px;
+  }
+
+  .footer h2 {
+    margin-right: 30px;
+    font-size: 25px;
+    width: fit-content;
+  }
+
+  .footer p {
+    font-size: 12px;
+    width: fit-content;
+  }
 }
