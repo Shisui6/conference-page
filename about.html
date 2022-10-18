@@ -13,15 +13,40 @@
 </head>
 <body>
   <header>
+    <div class="utility">
+      <ul>
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </div>
     <nav>
-      <i class="fa-solid fa-bars fa-2xl"></i>
+      <div class="mobile-menu">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+      <div class="desktop-menu">
+        <a href="./index.html">
+          <img src="./resources/Images/logo.png" alt="logo">
+        </a>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <button class="campaign">CC Campaign</button>
+      </div>
     </nav>
   </header>
   <section class="intro">
     <h3>"Hello! Sharing World"</h3>
-    <h1>Creative Commons Global Summit 2015</h1>
-    <p class="intro-desc">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two. This year, we hope to expand our invitation list including
-      organizations and individuals</p>
+    <h1>Creative Commons <br> Global Summit 2015</h1>
+    <hr>
+    <p class="intro-desc1">The Global Summit brings together the community of experts. academics. and activists who comprise the Creative Commons affiliate network in a different country every two years. This year. we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge. So if you're active and engaged in the worlds of open content and knowledge — free software advocates, Wikipedians, Open Knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists we hope you'll consider joining us this year to build a stronger. more vibrant commons together.</p>
+    <p class="intro-desc">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two. This year, we hope to expand our invitation list including organizations and individuals</p>
     <div class="contact-us">
       <p>Please contact us per Email for any further questions about CC Global Summit 2015!</p>
       <p class="email">ccsummit2015@cckorea.org</p>
@@ -30,9 +55,8 @@
   <section class="about">
     <h2 class="center">Creative Commons <br> Global Summit 2015 Logo</h2>
     <hr class="section-hr">
-    <p>The logo of CC Global Summit 2015 was decided
-      through the logo competition from 8. June to 7. July.
-    </p>
+    <p class="about-p">The logo of CC Global Summit 2015 was decided through the logo competition from 8. June to 7. July. After online public voting and Selection Committees judging process. the logo from Naresh Agrawal won the prize. After consultation with Mr. Agrawal we optimized the prize-winning-logo for this year's summit as following:</p>
+    <p class="about-p1">The logo of CC Global Summit 2015 was decided through the logo competition from 8. June to 7. July.</p>
     <div>
       <img src="./resources/Images/logo.png" alt="logo">
     </div>
@@ -42,11 +66,13 @@
     <hr class="section-hr">
     <p>Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warsaw.</p>
     <div class="event-cont">
-      <div class="event">
-        <img src="./resources/Images/event1.png" alt="event">
+      <div class="event" id="event1">
+        <h2>2013</h2>
+        <p>CC Global Summit 2013 in Buenos Aires</p>
       </div>
-      <div>
-        <img src="./resources/Images/event2.png" alt="event">
+      <div class="event" id="event2">
+        <h2>2011</h2>
+        <p>CC Global Summit 2013 in Warsaw</p>
       </div>
     </div>
   </section>
@@ -66,7 +92,7 @@
     </div>
   </section>
   <footer class="footer">
-    <h2>@Creative Commons Korea</h2>
+    <h2>@Creative <br> Commons Korea</h2>
     <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
   </footer>
 </body>
