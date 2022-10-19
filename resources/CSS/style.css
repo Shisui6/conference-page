@@ -337,7 +337,6 @@ footer {
 }
 
 /* Media Queries */
-
 @media screen and (min-width: 768px) {
   header {
     height: 95px;
@@ -367,7 +366,7 @@ footer {
   }
 
   header nav {
-    padding: 10px 150px;
+    padding: 10px 50px;
   }
 
   .desktop-menu img {
@@ -386,12 +385,10 @@ footer {
     list-style: none;
     width: fit-content;
     padding: 0;
-    position: relative;
-    left: 50px;
   }
 
   .desktop-menu li {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .desktop-menu li:first-child {
@@ -414,16 +411,17 @@ footer {
     padding: 10px 20px;
     background-color: #fff;
     cursor: pointer;
+    display: none;
   }
 
   .intro {
     margin-top: 95px;
-    padding: 30px 200px;
+    padding: 30px 100px;
   }
 
   .intro h1 {
     font-size: 50px;
-    width: 65%;
+    width: 100%;
     margin-bottom: 0;
   }
 
@@ -443,8 +441,9 @@ footer {
   .program-cont {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 0 150px;
+    padding: 0 30px;
     gap: 5px;
+    text-align: center;
   }
 
   .program-item {
@@ -492,7 +491,7 @@ footer {
   .speakers-cont {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 150px;
+    padding: 0 40px 20px;
   }
 
   .partners {
@@ -520,5 +519,40 @@ footer {
   .footer p {
     font-size: 12px;
     width: fit-content;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  header nav {
+    padding: 10px 150px;
+  }
+
+  .desktop-menu ul {
+    position: relative;
+    left: 50px;
+  }
+
+  .desktop-menu li {
+    margin-left: 50px;
+  }
+
+  .campaign {
+    display: block;
+  }
+
+  .intro {
+    padding: 30px 200px;
+  }
+
+  .intro h1 {
+    width: 65%;
+  }
+
+  .program-cont {
+    padding: 0 150px;
+  }
+
+  .speakers-cont {
+    padding: 0 150px;
   }
 }
