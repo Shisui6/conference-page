@@ -362,7 +362,7 @@ footer {
   }
 
   header nav {
-    padding: 10px 150px;
+    padding: 10px 50px;
   }
 
   .desktop-menu img {
@@ -381,12 +381,10 @@ footer {
     list-style: none;
     width: fit-content;
     padding: 0;
-    position: relative;
-    left: 50px;
   }
 
   .desktop-menu li {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .desktop-menu li:first-child {
@@ -409,6 +407,7 @@ footer {
     padding: 10px 20px;
     background-color: #fff;
     cursor: pointer;
+    display: none;
   }
 
   .intro {
@@ -473,7 +472,7 @@ footer {
 
   .event-cont {
     display: grid;
-    padding: 10px 200px 60px;
+    padding: 10px 100px 60px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
     gap: 20px;
@@ -501,5 +500,28 @@ footer {
   .footer p {
     font-size: 12px;
     width: fit-content;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  header nav {
+    padding: 10px 150px;
+  }
+
+  .desktop-menu ul {
+    position: relative;
+    left: 50px;
+  }
+
+  .desktop-menu li {
+    margin-left: 50px;
+  }
+
+  .campaign {
+    display: block;
+  }
+
+  .event-cont {
+    padding: 10px 200px 60px;
   }
 }
