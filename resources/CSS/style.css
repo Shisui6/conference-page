@@ -215,6 +215,10 @@ header nav {
   margin-top: 50px;
 }
 
+.program button:hover {
+  background-color: #3e3e3e;
+}
+
 .see {
   display: none;
 }
